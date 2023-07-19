@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo Inessa</title>
+    <style>
+        *{
+            padding: 0px;
+            margin: 0px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        main{
+            display: flex;
+            width: 50%;
+            margin-inline: auto;
+            margin-top: 1.5em;
+            border: 1px solid black;
+            border-radius: 5px;
+            max-width: 600px;
+            margin-bottom: 1.5em;
+        }
+        .fundo-amarelo{
+            background-color: #e9ecc8;
+            width: 45%;
+        }
+        .curriculo{
+            margin-left: 1.5em;
+        }
+        h1{
+            margin-top: 1em;
+            text-decoration: underline;
+        }
+        .container{
+            margin-top: 2.5em;
+            margin-bottom: 2.5em;
+            display: flex;
+            flex-direction: column;
+        }
+        li{
+            margin-left: 1.5em;
+        }
+        @media(max-width:850px){
+            main{
+                width: 80%;
+            }
+            .fundo-amarelo{
+                background-color: #e9ecc8;
+                width: 40%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <div class="fundo-amarelo"></div>
+        <div class="curriculo">
+            <h1>Inessa Stefany T. de Oliveira</h1>
+            <span>Programadora</span>
+
+            <div class="container">
+                <h3>DADOS PESSOAIS</h3>
+                <span>Telefone: (67) 981673526</span>
+                <span>Rua Projetada B, número 1163, Vila Toscana II, Dourados/Mato Grosso do Sul</span>
+            </div>
+
+            <div class="container"> 
+                <h3>OBJETIVO</h3>
+                <p>
+                    Atuar no mercado de TI como programadora
+                </p>
+            </div>
+
+            <div class="container">
+                <h3>EXPERIÊNCIA</h3>
+                <ul>
+                    <li>Tutora no Programa Mais Educação - 2015 / 2016</li>
+                    <li>Consultoria Ambiental - 2016/2018</li>
+                </ul>
+            </div>
+
+            <div class="container">
+                <h3>FORMAÇÃO</h3>   
+                <ul>
+                    <li>Técnica em Agronegócio - SENAR</li>
+                    <li>Ciências biológicas - UEMS</li>
+                </ul>
+            </div>
+            
+        </div>
+    </main>
+</body>
+</html>
